@@ -1,0 +1,22 @@
+{
+  "name": "random-chat-tg",
+  "version": "0.0.1",
+  "description": "Bot untuk mencari teman chat random dari Telegram",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "start-dev": "DEBUG=bot nodemon src/main.js",
+    "test": "mocha"
+  },
+  "keywords": [
+    "telegram"
+  ],
+  "author": "wan",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "mongoose": "^6.0.5",
+    "telegraf": "^4.4.1",
+    "debug": "^4.3.2"
+  }
+}
